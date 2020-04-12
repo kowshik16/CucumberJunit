@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 226172,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 314904,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Access the Facebook site",
+        "description": "",
+        "id": "logins;access-the-facebook-site",
+        "after": [
+          {
+            "result": {
+              "duration": 123092,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 56260,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7934553629,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the facebook Application URL",
+            "match": {
+              "location": "LoginStepDefinition.facebookURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 762704895,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Logins",
+    "description": "",
+    "id": "logins",
+    "keyword": "Feature",
+    "uri": "MyTest.feature"
+  }
+]
