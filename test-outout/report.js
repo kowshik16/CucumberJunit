@@ -7,11 +7,11 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 226172,
+  "duration": 460273,
   "status": "passed"
 });
 formatter.before({
-  "duration": 314904,
+  "duration": 707589,
   "status": "passed"
 });
 formatter.scenario({
@@ -42,22 +42,22 @@ formatter.match({
   "location": "LoginStepDefinition.facebookURL()"
 });
 formatter.result({
-  "duration": 7934553629,
+  "duration": 7263264095,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 762704895,
+  "duration": 625496710,
   "status": "passed"
 });
 formatter.after({
-  "duration": 123092,
+  "duration": 370786,
   "status": "passed"
 });
 formatter.after({
-  "duration": 56260,
+  "duration": 243541,
   "status": "passed"
 });
 });
