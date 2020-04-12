@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.890543">
-<testcase classname="Logins" name="Access the Facebook site" time="7.890543">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.0635">
+<testcase classname="Logins" name="Access the Facebook site" time="7.0635">
 <system-out><![CDATA[Given Open the facebook Application URL.....................................passed
 Then Close the browser......................................................passed
 ]]></system-out>
