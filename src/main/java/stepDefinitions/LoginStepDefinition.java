@@ -81,6 +81,7 @@ public class LoginStepDefinition{
 	 @Then("^Close the browser$")
 	 public void close_the_browser(){
 		 driver.quit();
+		 System.out.println("Browser is closed");
 	 }
 	
 	 @Given("^Open the facebook Application URL$")
@@ -88,6 +89,7 @@ public class LoginStepDefinition{
 	 System.setProperty("webdriver.chrome.driver","./Drivers/chromedriver.exe");
 	 driver = new ChromeDriver();
 	 driver.get("https://facebook.com");
+	 System.out.println("Facebook site is opened");
 	 }
 	 
 	 @Given("^Open the amazon Application URL$")
@@ -95,6 +97,7 @@ public class LoginStepDefinition{
 	 System.setProperty("webdriver.chrome.driver","./Drivers/chromedriver.exe");
 	 driver = new ChromeDriver();
 	 driver.get("https://amazon.com");
+	 System.out.println("Amazon site is opened");
 	 }
 	
 	
