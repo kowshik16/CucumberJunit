@@ -7,57 +7,57 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 228815,
+  "duration": 803118,
   "status": "passed"
 });
 formatter.before({
-  "duration": 101569,
+  "duration": 78160,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 4,
-  "name": "Access the Facebook site",
+  "line": 9,
+  "name": "Access the Amazon site",
   "description": "",
-  "id": "logins;access-the-facebook-site",
+  "id": "logins;access-the-amazon-site",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 3,
-      "name": "@Smoke"
+      "line": 8,
+      "name": "@Sanity"
     }
   ]
 });
 formatter.step({
-  "line": 5,
-  "name": "Open the facebook Application URL",
+  "line": 10,
+  "name": "Open the amazon Application URL",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 6,
+  "line": 11,
   "name": "Close the browser",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LoginStepDefinition.facebookURL()"
+  "location": "LoginStepDefinition.amazonURL()"
 });
 formatter.result({
-  "duration": 6434285168,
+  "duration": 5262438322,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 628384460,
+  "duration": 1098382135,
   "status": "passed"
 });
 formatter.after({
-  "duration": 258267,
+  "duration": 44177,
   "status": "passed"
 });
 formatter.after({
-  "duration": 241653,
+  "duration": 48708,
   "status": "passed"
 });
 });

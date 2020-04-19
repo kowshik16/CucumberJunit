@@ -1,5 +1,9 @@
 package stepDefinitions;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.util.Properties;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Point;
@@ -98,6 +102,28 @@ public class LoginStepDefinition{
 	 driver = new ChromeDriver();
 	 driver.get("https://amazon.com");
 	 System.out.println("Amazon site is opened");
+	 FileInputStream file;
+	 Properties prop = null; 
+	 try
+	 {
+		file = new FileInputStream("./GeneralProperties.properties");
+		prop = new Properties();
+		prop.load(file);
+	 }
+	 catch(Exception e)
+	 {
+		 e.printStackTrace();
+	 }
+	 String parameter=System.getProperty("url");
+	 if(parameter==null)
+	 {
+		 System.out.println(prop.getProperty("url"));
+	 }
+	 else
+	 {
+		 System.out.println(parameter);
+	 }
+	 
 	 }
 	
 	

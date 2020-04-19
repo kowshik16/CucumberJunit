@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 228815,
+              "duration": 803118,
               "status": "passed"
             },
             "match": {
@@ -15,7 +15,7 @@
           },
           {
             "result": {
-              "duration": 101569,
+              "duration": 78160,
               "status": "passed"
             },
             "match": {
@@ -23,14 +23,14 @@
             }
           }
         ],
-        "line": 4,
-        "name": "Access the Facebook site",
+        "line": 9,
+        "name": "Access the Amazon site",
         "description": "",
-        "id": "logins;access-the-facebook-site",
+        "id": "logins;access-the-amazon-site",
         "after": [
           {
             "result": {
-              "duration": 258267,
+              "duration": 44177,
               "status": "passed"
             },
             "match": {
@@ -39,7 +39,7 @@
           },
           {
             "result": {
-              "duration": 241653,
+              "duration": 48708,
               "status": "passed"
             },
             "match": {
@@ -52,22 +52,22 @@
         "steps": [
           {
             "result": {
-              "duration": 6434285168,
+              "duration": 5262438322,
               "status": "passed"
             },
-            "line": 5,
-            "name": "Open the facebook Application URL",
+            "line": 10,
+            "name": "Open the amazon Application URL",
             "match": {
-              "location": "LoginStepDefinition.facebookURL()"
+              "location": "LoginStepDefinition.amazonURL()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 628384460,
+              "duration": 1098382135,
               "status": "passed"
             },
-            "line": 6,
+            "line": 11,
             "name": "Close the browser",
             "match": {
               "location": "LoginStepDefinition.close_the_browser()"
@@ -77,8 +77,8 @@
         ],
         "tags": [
           {
-            "line": 3,
-            "name": "@Smoke"
+            "line": 8,
+            "name": "@Sanity"
           }
         ]
       }
